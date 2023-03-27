@@ -4,13 +4,13 @@ importers:
 
   .:
     specifiers:
-      '@custom-ui/component': workspace:^0.0.1
+      '@custom-ui/components': workspace:^0.0.1
       '@custom-ui/theme-chalk': workspace:^0.0.1
       '@custom-ui/utils': workspace:^0.0.1
       typescript: ^5.0.2
       vue: ^3.2.36
     dependencies:
-      '@custom-ui/component': link:packages/component
+      '@custom-ui/components': link:packages/components
       '@custom-ui/theme-chalk': link:packages/theme-chalk
       '@custom-ui/utils': link:packages/utils
     devDependencies:
@@ -24,6 +24,15 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue': 4.1.0_vite@4.2.1
       vite: 4.2.1
+
+  packages/components:
+    specifiers: {}
+
+  packages/theme-chalk:
+    specifiers: {}
+
+  packages/utils:
+    specifiers: {}
 
 packages:
 

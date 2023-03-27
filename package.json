@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "pnpm -C example dev",
+    "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "qzlthxp",
@@ -12,7 +13,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@custom-ui/component": "workspace:^0.0.1",
+    "@custom-ui/components": "workspace:^0.0.1",
     "@custom-ui/theme-chalk": "workspace:^0.0.1",
     "@custom-ui/utils": "workspace:^0.0.1"
   }
