@@ -1,4 +1,10 @@
 /* app.vue */
 <template>
-  <h1>我是开发调试页面</h1>
+  <CustomButton size="small" type="primary" @click="handleClick" />
 </template>
+
+<script setup lang="ts">
+function handleClick(e) {
+  console.log(e)
+}
+</script>
